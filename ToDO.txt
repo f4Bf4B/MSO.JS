@@ -1,0 +1,11 @@
+ToDo Liste mit Namen und Abgabedatum:
+
+Name:           Aufgabe                              Abgabedatum         Fertig?
+
+Marcel          Filter                                27.01.2015                    
+
+Marcel          Header                                27.01.2015
+
+Fabian          Bilder der Website downloaden         27.01.2015
+
+Fabian          ReadMe Überarbeiten                   27.01.2015
