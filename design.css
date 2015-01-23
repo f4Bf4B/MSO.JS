@@ -1,26 +1,69 @@
+/*Allgemeines*/
 body {
-  backgroundcolor: #EEE6FF; 
-  }
-
-.navbar {
-  backgroundcolor: #00F2FF; 
-  opacity: 0.6
+  background-color: #EEE6FF; 
+  font-family: Helventica;
   }
   
+h1 {
+  font-size:1.2em;
+  background-color: #DF4D4D;
+  border-radius: 5px;
+  padding: 3% 5%;
+  margin-top:2em;
+  }
+  
+h2 {
+    font-size: 1em;
+  }
+  
+a {
+    text-decoration:none;
+  }
+
+/*Navigationsleiste*/
+.navileiste {
+  display:block;
+  width: 100%;
+  height:2.5em;
+  margin-top:-1em;
+  background: #00F2FF; /*Hintergrundfarbe der Navigation*/
+  opacity:0.6;
+  text-align:center;
+  border-radius: 0.2em;
+  }
+
+.navileiste ul {
+  display:block;
+  border-radius: 0.2em;
+}
+
+.navileiste ul li {
+    display:inline;
+    margin:0em 0.188em 0em 0.188em;
+}
+
+.navileiste ul li a {
+    color:#FFFFFF; /*Schriftfarbe in der Navigation*/
+    font-size: 1.125em;
+    line-height:2.5em;
+    padding:0.563em 0.938em 0.375em 0.983em;
+}
+
+.navileiste ul li a:hover {
+    color: #FFFFFF;
+    background-color: #8EAFE8;
+    border-radius: 0.1em;
+}
+
+.navileiste ul li a.active {
+    color: #FFFFFF;		
+    border-radius: 0.1em;   
+}  
 .filter {
-  backgroundcolor: #00F2FF
-}
-  
-.hover {
-  backgroundcolor: #8EAFE8;
-  opacity: 0.4
-}
-
-.activ{
-  color: #FFFFFF
+  background-color: #00F2FF;
 }
 
 .footer{
-  backgroundcolor: #00F2FF; 
-  opacity: 0.6
+  background-color: #00F2FF; 
+  opacity: 0.6;
 }
