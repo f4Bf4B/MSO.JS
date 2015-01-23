@@ -1,0 +1,26 @@
+body {
+  backgroundcolor: #EEE6FF; 
+  }
+
+.navbar {
+  backgroundcolor: #00F2FF; 
+  opacity: 0.6
+  }
+  
+.filter {
+  backgroundcolor: #00F2FF
+}
+  
+.hover {
+  backgroundcolor: #8EAFE8;
+  opacity: 0.4
+}
+
+.activ{
+  color: #FFFFFF
+}
+
+.footer{
+  backgroundcolor: #00F2FF; 
+  opacity: 0.6
+}
